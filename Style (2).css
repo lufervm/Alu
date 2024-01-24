@@ -6,15 +6,19 @@ body {
 }
 
 h1 {
-	background-color: #07464C;
 	color: ghostwhite;
-	font: normal 36px/1.4 DreamAvenue;
+	font: normal 45px/1.4 DreamAvenue;
+	display: flex;
+	align-items: center;
+	margin-top: 15px;
+	margin-left: 13px;
 }
 
 P {
 	color: #242424;
 	text-align: center;
 	font-size: 50px;
+	font-family: Georgia;
 }
 
 p2 {
@@ -27,30 +31,51 @@ p2 {
 
 nav {
 	background-color: #07464C;
+	margin-right: 10px;
 	color: ghostwhite;
 	font-size: medium;
 	z-index: 2;
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	display: flex;
-	height: fit-content;
+	height: 80px;
+}
+
+
+nav ul li{
 	align-items: center;
 	justify-content: space-between;
 	padding-top: 20px;
 	padding-left: 5%;
 	padding-right: 5%;
 	font font-weight: bold;
-}
-
-
-ul li{
 	display: inline-block;
 	padding: 0px 20 px;
+	margin: 0 5px;
 }
 
 a{
 	color: #07464C;
 	text-decoration: none;
+}
+
+nav ul li:hover{
+	text-decoration: underline;
+}
+
+.checkbtn{
+	font-size: 30px;
+	color: #fff;
+	float: right;
+	line-height: 80 px;
+	margin-right: 40px;
+	margin-top: 23px;
+	justify-content: space-between;
+	cursor: pointer;
+	display: none;
+}
+#checkbox{
+	display: none;
 }
 
 .col {
@@ -110,7 +135,7 @@ p3 {
 /*Esto no se está usando*/
 #fondo {
 	width: 1133px;
-	height: 443px;
+	height: 443p
 	background-image: url(HomeHeader.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -141,7 +166,7 @@ p4 {
 
 .contenedor {
 	background-color: #F6F6F6;
-	width: 100%;
+	width: 80%;
 	padding: 5rem;
 }
 
