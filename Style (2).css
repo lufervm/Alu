@@ -164,11 +164,43 @@ p4 {
 	font: normal 20px/1.4 Mada;
 }
 
-.contenedor {
+.Steps {
+	width: 437.61px;
+	height: 436.95px;
+	margin: 0 5px;
+}
+
+.Personalizar {
 	background-color: #F6F6F6;
-	width: 80%;
+	display: flex;
+	padding: 5rem;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width:900px) {
+	.Personalizar {
+		flex-direction: column;
+		align-items: center;
+		margin: auto;
+	}
+
+	.Steps {
+		margin-bottom: 30px;
+	}
+
+.Universidades {
+	background-color: #fff;
 	padding: 5rem;
 }
+
+
+
+
+
+
+
+	
 
 li {
 	list-style: none;
