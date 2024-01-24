@@ -5,13 +5,20 @@ body {
 	top: 0;
 }
 
+.enlace {
+	position: absolute;
+	padding: 20px 50px;
+}
+
 h1 {
-	color: ghostwhite;
-	font: normal 45px/1.4 DreamAvenue;
+	color: #454545;
+	font: normal 22px/1.4 mada;
 	display: flex;
 	align-items: center;
+	text-align: center;
 	margin-top: 15px;
-	margin-left: 13px;
+	margin-left: 133px;
+	margin-right: 133px;
 }
 
 P {
@@ -190,9 +197,20 @@ p4 {
 	}
 }
 
-.Universidades {
-	background-color: #fff;
-	padding: 5rem;
+.UnivWrapper {
+	max-height: 154px;
+	border:1px solid #ghostwhite;
+	display: flex;
+	align-items: center;
+	overflow-x: auto;
+}
+
+.UnivWrapper .Iconos {
+	min-width: 154px;
+	height: 154px;
+	line-height: 154px;
+	margin-left: 78px;
+	margin-right: 50px;
 }
 
 
