@@ -1,0 +1,160 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Mada', sans-serif;
+	top: 0;
+}
+
+h1 {
+	background-color: #07464C;
+	color: ghostwhite;
+	font: normal 36px/1.4 DreamAvenue;
+}
+
+P {
+	color: #242424;
+	text-align: center;
+	font-size: 50px;
+}
+
+p2 {
+	color: #242424;
+	text-align: right;
+	font: normal 17px/1.4 Mada;
+	/* prueba */
+
+}
+
+nav {
+	background-color: #07464C;
+	color: ghostwhite;
+	font-size: medium;
+	z-index: 2;
+	position: absolute;
+	width: 100%;
+	display: flex;
+	height: fit-content;
+}
+
+.col {
+	flex: 1;
+	margin: rem;
+}
+
+
+.home {
+	margin-top: 0;
+	z-index: 1;
+	position: relative;
+}
+
+.col ul {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style: none;
+}
+
+.my-button {
+	padding: 10px 20px;
+	background-color: #07464C;
+	color: white;
+	border: none;
+	border-radius: 100px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 18px;
+}
+
+.inter-texts p {
+	color: #454545;
+	font-size: 1.5vw;
+	margin-left: 6rem;
+	margin-right: 6rem;
+}
+
+/*Esto no se está usando y lo borré*/
+
+p3 {
+	font: 22px;
+	text-align: center;
+	line-height: 137.6%;
+	font: normal 22px/1.4 Mada;
+	color: #454545;
+}
+
+/*Esto no se está usando*/
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*Esto no se está usando*/
+#fondo {
+	width: 1133px;
+	height: 443px;
+	background-image: url(HomeHeader.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	justify-content: center;
+}
+
+/*Esto no se está usando*/
+#fondo h3 {
+	color: white;
+	font: normal 38px/1.4 Georgia;
+	font-size: 60px;
+}
+
+h2 {
+	font: 38px;
+	text-align: center;
+	color: #07464C;
+	font: normal 38px/1.4 Georgia;
+}
+
+p4 {
+	font: 20px;
+	text-align: left;
+	color: #454545;
+	font: normal 20px/1.4 Mada;
+}
+
+.contenedor {
+	background-color: #F6F6F6;
+	width: 100%;
+	padding: 5rem;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+.over-image {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.motd p {
+	height: fit-content;
+	color: white;
+	margin-bottom: 1rem;
+	font-size: 4vw;
+}
