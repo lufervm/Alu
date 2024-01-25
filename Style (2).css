@@ -62,12 +62,13 @@ nav ul li{
 }
 
 a{
-	color: #07464C;
+	color: ghostwhite;
 	text-decoration: none;
 }
 
 nav ul li:hover{
 	text-decoration: underline;
+	color: ghostwhite;
 }
 
 .checkbtn{
@@ -88,6 +89,7 @@ nav ul li:hover{
 .col {
 	flex: 1;
 	margin: rem;
+	color: ghostwhite;
 }
 
 
@@ -102,6 +104,7 @@ nav ul li:hover{
 	justify-content: flex-end;
 	align-items: center;
 	list-style: none;
+
 }
 
 .my-button {
@@ -213,17 +216,162 @@ p4 {
 	margin-right: 50px;
 }
 
+.card-container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 4px;
+	background-color: #F6F6F6;
 
-li {
+}
+
+.card{
+	width: 445px;
+	background-color: #ghostwhite;
+	overflow: hidden;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+	margin: 20px;
+}
+
+.card img{
+	width: 445px;
+	height: 321px;
+}
+
+.card-content{
+	padding: 20px;
+}
+
+.card-content h3{
+	font-size: 33px;
+	margin-bottom: 5px;
+	font: normal 33px/1.4 Georgia;
+}
+
+.card-content .btn{
+	display:inline-block;
+	padding: 6px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #07464C;
+	text-decoration: none;
+	border-radius: 100px;
+	margin-top: 16px;
+	font: normal 20px/1.4 Mada;
+	text-align: center;
+	margin-right: 2px;
+	color: ghostwhite;
+}
+
+.Conócenos{
+	display:flex ;
+	justify-content: center;
+	background-color: #07464C;
+	font: normal 22px/1.4 Mada;
+	color: ghostwhite;
+}
+
+.LogoAlu{
+	width: 164.42px;
+	height: 109.62px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding-left: 80px;
+}
+
+.card-content-text h4{
+	font-size: 33px;
+	margin-bottom: 5px;
+	font: normal 22px/1.4 Mada;
+	color: ghostwhite;
+	text-align: left;
+}
+
+.card-content-text{
+	display:inline-block;
+	padding: 6px;
+	padding-left: 50px;
+	padding-right: 150px;
+	background-color: #07464C;
+	text-decoration: none;
+	border-radius: 100px;
+	margin-top: 70px;
+	font: normal 20px/1.4 Mada;
+	text-align: left;
+	margin-right: 10px;
+	color: #07464C;
+}
+
+.card-content-text .button{
+	background-color: ghostwhite;
+	text-decoration: none;
+	border-radius: 100px;
+	margin-top: 16px;
+	font: normal 22px/1.4 Mada;
+	color: #07464C;
+	padding: 7px;
+	padding-left: 33px;
+	padding-right: 33px;
+}
+
+.Card-comment{
+	display: flex;
+	background-color: #F6F6F5;
+	Display: flex;
+	justify-content: left;
+	margin-top: 4px;
+	background-color: #F6F6F6;
+
+}
+
+.Comment{
+	width: 319px;
+	background-color: #F6F6F5;
+	overflow: hidden;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+	margin: 20px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	border-radius: 14px;
+
+
+}
+
+h5{
+	font-size: 22px;
+	margin-bottom: 5px;
+	font: normal 22px/1.4 Mada;
+}
+
+.Comment img{
+	width: 22.7px;
+	height: 17.82px;
+	
+}
+
+.comment-content h5{
+	font-size: 22px;
+	margin-bottom: 5px;
+	font: normal 22px/1.4 Mada;
+
+}
+
+
+
+
+
+.li {
 	list-style: none;
 }
 
-a {
+.a {
 	text-decoration: none;
 	color: white;
 }
 
-a:visited {
+.a:visited {
 	color: white;
 }
 
