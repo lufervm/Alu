@@ -5,10 +5,135 @@ body {
 	top: 0;
 }
 
-.enlace {
-	position: absolute;
-	padding: 20px 50px;
+/*HEADER*/
+*{
+	margin:0;
+	box-sizing: border-box;
 }
+
+.header{
+	background-color: #07464C;
+	height: 80px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.nav{
+	display: flex;
+	justify-content: space-between;
+	max-width: 992px;
+	margin: 0 auto;
+	border-bottom-left-radius: 14px;
+	border-bottom-right-radius: 14px;
+}
+
+.active{
+	color: ghostwhite;
+	text-decoration: none;
+	font: normal 17px Mada;
+
+}
+
+.logo{
+	height: 36px;
+	margin: 20px;
+
+}
+
+.menu{
+	display: flex;
+}
+
+.nav-menu{
+	display: flex;
+	margin-right: 40px;
+	list-style: none;
+}
+
+.nav-menu-item{
+	font-size: 17px;
+	margin: 0 25px;
+	line-height: 80px;
+	width: max-content;
+}
+
+.active:hover,
+.nav-menu-item_active{
+	text-decoration: underline;
+}
+
+.nav-toggle{
+	color: ghostwhite;
+	background: none;
+	border: none;
+	font-size: 30px;
+	padding: 0 20px;
+	line-height: 60px;
+	cursor: pointer;
+
+	display: none;
+}
+
+/*HEADER MOBILE*/
+
+@media (max-width: 768px){
+
+	.nav{
+		top:60px;
+		align-items: right;
+	}
+	.header{
+		height: 60px;
+	}
+
+	.logo{
+		height: 36px;
+		margin: 13px;
+	}
+
+	.nav-menu{
+		flex-direction: column;
+		align-items: center;
+		margin-right: 0;
+		background-color: #07464C;
+		position:fixed;
+
+		left: 0;
+		top:60px;
+		padding: 20px 0;
+
+		width: 100%;
+
+		border-bottom-left-radius: 14px;
+		border-bottom-right-radius: 14px;
+
+
+		height: calc(100 - 60px);
+
+		left: 100%;
+		transition: left 0,3s;
+	}
+
+
+	.nav-menu-item{
+		line-height: 70px;
+	}
+
+	.nav-toggle{
+		display: block;
+	}
+
+	.nav-menu_visible{
+		left: 0;
+
+	}
+
+}
+
+/*TERMINA HEADER*/
+
 
 h1 {
 	color: #454545;
@@ -36,97 +161,6 @@ p2 {
 
 }
 
-nav {
-	background-color: #07464C;
-	margin-right: 10px;
-	color: ghostwhite;
-	font-size: medium;
-	z-index: 2;
-	position: fixed;
-	width: 100%;
-	display: flex;
-	height: 80px;
-}
-
-
-nav ul li{
-	align-items: center;
-	justify-content: space-between;
-	padding-top: 20px;
-	padding-left: 5%;
-	padding-right: 5%;
-	font font-weight: bold;
-	display: inline-block;
-	padding: 0px 20 px;
-	margin: 0 5px;
-}
-
-a{
-	color: ghostwhite;
-	text-decoration: none;
-}
-
-nav ul li:hover{
-	text-decoration: underline;
-	color: ghostwhite;
-}
-
-.checkbtn{
-	font-size: 30px;
-	color: #fff;
-	float: right;
-	line-height: 80 px;
-	margin-right: 40px;
-	margin-top: 23px;
-	justify-content: space-between;
-	cursor: pointer;
-	display: none;
-}
-#checkbox{
-	display: none;
-}
-
-.col {
-	flex: 1;
-	margin: rem;
-	color: ghostwhite;
-}
-
-
-.home {
-	margin-top: 0;
-	z-index: 1;
-	position: relative;
-}
-
-.col ul {
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-	list-style: none;
-
-}
-
-.my-button {
-	padding: 10px 20px;
-	background-color: #07464C;
-	color: white;
-	border: none;
-	border-radius: 100px;
-	cursor: pointer;
-	text-align: center;
-	font-size: 18px;
-}
-
-.inter-texts p {
-	color: #454545;
-	font-size: 1.5vw;
-	margin-left: 6rem;
-	margin-right: 6rem;
-}
-
-/*Esto no se está usando y lo borré*/
-
 p3 {
 	font: 22px;
 	text-align: center;
@@ -135,30 +169,11 @@ p3 {
 	color: #454545;
 }
 
-/*Esto no se está usando*/
-.flex-center {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
 
-/*Esto no se está usando*/
-#fondo {
-	width: 1133px;
-	height: 443p
-	background-image: url(HomeHeader.png);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: center;
-	justify-content: center;
-}
 
-/*Esto no se está usando*/
-#fondo h3 {
-	color: white;
-	font: normal 38px/1.4 Georgia;
-	font-size: 60px;
-}
+
+
+
 
 h2 {
 	font: 38px;
@@ -173,6 +188,8 @@ p4 {
 	color: #454545;
 	font: normal 20px/1.4 Mada;
 }
+
+/*PERSONALIZA TU PIEZA*/
 
 .Steps {
 	width: 437.61px;
@@ -199,6 +216,8 @@ p4 {
 		margin-bottom: 30px;
 	}
 }
+
+/*UNIVERSIDADES*/
 
 .UnivWrapper {
 	max-height: 154px;
@@ -265,6 +284,8 @@ p4 {
 	color: ghostwhite;
 }
 
+/*CONÓCENOS*/
+
 .Conócenos{
 	display:flex ;
 	justify-content: center;
@@ -316,6 +337,8 @@ p4 {
 	padding-right: 33px;
 }
 
+/*COMENTARIOS*/
+
 .Card-comment{
 	display: flex;
 	background-color: #F6F6F5;
@@ -363,6 +386,8 @@ h5{
 
 }
 
+/*REDES SOCIALES*/
+
 .rss{
 	min-widht: 700px;
 	display: flex;
@@ -406,6 +431,8 @@ h5{
 	color: white;
 }
 
+
+
 .over-image {
 	display: flex;
 	flex-direction: column;
@@ -423,6 +450,8 @@ h5{
 	margin-bottom: 1rem;
 	font-size: 4vw;
 }
+
+/*FOOTER*/
 
 .Footer{
 	width: 100%;
