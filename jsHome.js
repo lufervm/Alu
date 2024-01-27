@@ -1,3 +1,4 @@
+/*HEADER MENU*/
 const navToggle = document.querySelector(".nav-toggle")
 const navMenu = document.querySelector(".nav-menu")
 
@@ -10,3 +11,5 @@ navToggle.addEventListener("click", () => {
 		navToggle.setAttribute("aria-label", "Abrir menú")
 	}
 });
+
+/*TERMINA HEADER MENU*/
