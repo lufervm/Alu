@@ -12,6 +12,7 @@
 	width: 100%;
 	top: 0;
 	left: 0;
+	z-index: 1;
 }
 
 .nav{
@@ -56,6 +57,7 @@
 .active:hover,
 .nav-menu-item_active{
 	text-decoration: underline;
+	color: ghostwhite;
 }
 
 .nav-toggle{
@@ -156,15 +158,474 @@
 		background-size: cover;
 	}
 
+/*TEXT*/
+
+.text-container{
+	padding: 32px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 7px;
+}
+
+
+p{
+	text-align: center;
+	margin: 16px;
+
+	font: normal 22px Mada;
+}
 
 
 
 
+//*UNIVERSIDADES*//
+
+/*TEC*/
+
+left{
+	width: 200px;
+}
+.row-univ_tec{
+	width: 100%;
+	max-width: 1170px;
+	display: grid;
+
+	grid-template-columns: column(2)
+	grid-gap: 30px 30px;
+	padding: 45px 40px;
+}
+}
+
+.row-univ_tec .left-logo-tec{
+	overflow: hidden;
+}
+
+.row-univ_tec .left-logo-tec img{
+	width: 135px;
+	height: 166px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.row-univ_tec .right-text-tec .content{
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.row-univ_tec .right-text-tec .content h3{
+	font:normal 30px Georgia;
+	line-height: 26px;
+	padding-bottom: 35px;
+}
+
+.row-univ_tec .right-text-tec .content p3{
+	font:normal 22px Mada;
+	line-height: 28px;
+	padding-bottom: 35px;
+	color: #454545;
+}
+
+.row-univ_tec .right-text-tec .content a{
+	color: ghostwhite;
+	background-color: #07464C;
+	border-radius: 50px;
+	font-size: 27px;
+	padding: 0 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	line-height: 60px;
+	cursor: pointer;
+	text-decoration: none;
+	font: normal 20px Mada;
+	margin-top: 30px;
+}
+
+/*ANAHUAC*/
+
+left{
+	width: 200px;
+}
+.row-univ_anahuac{
+	width: 100%;
+	max-width: 1170px;
+	display: grid;
+
+	grid-template-columns: column(2)
+	grid-gap: 30px 30px;
+	padding: 45px 40px;
+}
+}
+
+.row-univ_anahuac .left-logo-anahuac{
+	overflow: hidden;
+}
+
+.row-univ_anahuac .left-logo-anahuac img{
+	width: 141px;
+	height: 131px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.row-univ_anahuac .right-text-anahuac .content{
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.row-univ_anahuac .right-text-anahuac .content h3{
+	font:normal 30px Georgia;
+	line-height: 26px;
+	padding-bottom: 35px;
+}
+
+.row-univ_anahuac .right-text-anahuac .content p3{
+	font:normal 22px Mada;
+	line-height: 28px;
+	padding-bottom: 35px;
+	color: #454545;
+}
+
+.row-univ_anahuac .right-text-anahuac .content a{
+	color: ghostwhite;
+	background-color: #07464C;
+	border-radius: 50px;
+	font-size: 27px;
+	padding: 0 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	line-height: 60px;
+	cursor: pointer;
+	text-decoration: none;
+	font: normal 20px Mada;
+	margin-top: 30px;
+}
+
+/*UNAM*/
+
+left{
+	width: 200px;
+}
+.row-univ_unam{
+	width: 100%;
+	max-width: 1170px;
+	display: grid;
+
+	grid-template-columns: column(2)
+	grid-gap: 30px 30px;
+	padding: 45px 40px;
+}
+}
+
+.row-univ_unam .left-logo-unam{
+	overflow: hidden;
+}
+
+.row-univ_unam .left-logo-unam img{
+	width: 111px;
+	height: 126px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.row-univ_unam .right-text-unam .content{
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.row-univ_unam .right-text-unam .content h3{
+	font:normal 30px Georgia;
+	line-height: 26px;
+	padding-bottom: 35px;
+}
+
+.row-univ_unam .right-text-unam .content p3{
+	font:normal 22px Mada;
+	line-height: 28px;
+	padding-bottom: 35px;
+	color: #454545;
+}
+
+.row-univ_unam .right-text-unam .content a{
+	color: ghostwhite;
+	background-color: #07464C;
+	border-radius: 50px;
+	font-size: 27px;
+	padding: 0 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	line-height: 60px;
+	cursor: pointer;
+	text-decoration: none;
+	font: normal 20px Mada;
+	margin-top: 30px;
+}
+
+/*ITAM*/
+
+left{
+	width: 200px;
+}
+.row-univ_itam{
+	width: 100%;
+	max-width: 1170px;
+	display: grid;
+
+	grid-template-columns: column(2)
+	grid-gap: 30px 30px;
+	padding: 45px 40px;
+}
+}
+
+.row-univ_itam .left-logo-itam{
+	overflow: hidden;
+}
+
+.row-univ_itam .left-logo-itam img{
+	width: 120px;
+	height: 37px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.row-univ_itam .right-text-itam .content{
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.row-univ_itam .right-text-itam .content h3{
+	font:normal 30px Georgia;
+	line-height: 26px;
+	padding-bottom: 35px;
+}
+
+.row-univ_itam .right-text-itam .content p3{
+	font:normal 22px Mada;
+	line-height: 28px;
+	padding-bottom: 35px;
+	color: #454545;
+}
+
+.row-univ_itam .right-text-itam .content a{
+	color: ghostwhite;
+	background-color: #07464C;
+	border-radius: 50px;
+	font-size: 27px;
+	padding: 0 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	line-height: 60px;
+	cursor: pointer;
+	text-decoration: none;
+	font: normal 20px Mada;
+	margin-top: 30px;
+}
 
 
 
+/*IBERO*/
+
+left{
+	width: 200px;
+}
+.row-univ_ibero{
+	width: 100%;
+	max-width: 1170px;
+	display: grid;
+
+	grid-template-columns: column(2)
+	grid-gap: 30px 30px;
+	padding: 45px 40px;
+}
+}
+
+.row-univ_itam .left-logo-ibero{
+	overflow: hidden;
+}
+
+.row-univ_ibero .left-logo-ibero img{
+	width: 150px;
+	height: 64px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.row-univ_ibero .right-text-ibero .content{
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.row-univ_ibero .right-text-ibero .content h3{
+	font:normal 30px Georgia;
+	line-height: 26px;
+	padding-bottom: 35px;
+}
+
+.row-univ_ibero .right-text-ibero .content p3{
+	font:normal 22px Mada;
+	line-height: 28px;
+	padding-bottom: 35px;
+	color: #454545;
+}
+
+.row-univ_ibero .right-text-ibero .content a{
+	color: ghostwhite;
+	background-color: #07464C;
+	border-radius: 50px;
+	font-size: 27px;
+	padding: 0 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	line-height: 60px;
+	cursor: pointer;
+	text-decoration: none;
+	font: normal 20px Mada;
+	margin-top: 30px;
+}
+
+/*LA SALLE*/
+
+left{
+	width: 200px;
+}
+.row-univ_lasalle{
+	width: 100%;
+	max-width: 1170px;
+	display: grid;
+
+	grid-template-columns: column(2)
+	grid-gap: 30px 30px;
+	padding: 45px 40px;
+}
+}
+
+.row-univ_lasalle .left-logo-lasalle{
+	overflow: hidden;
+}
+
+.row-univ_lasalle .left-logo-lasalle img{
+	width: 131px;
+	height: 123px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.row-univ_lasalle .right-text-lasalle .content{
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.row-univ_lasalle .right-text-lasalle  .content h3{
+	font:normal 30px Georgia;
+	line-height: 26px;
+	padding-bottom: 35px;
+}
+
+.row-univ_lasalle .right-text-lasalle  .content p3{
+	font:normal 22px Mada;
+	line-height: 28px;
+	padding-bottom: 35px;
+	color: #454545;
+}
+
+.row-univ_lasalle .right-text-lasalle  .content a{
+	color: ghostwhite;
+	background-color: #07464C;
+	border-radius: 50px;
+	font-size: 27px;
+	padding: 0 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	line-height: 60px;
+	cursor: pointer;
+	text-decoration: none;
+	font: normal 20px Mada;
+	margin-top: 30px;
+}
+
+/*LA SALLE*/
+
+left{
+	width: 200px;
+}
+.row-univ_up{
+	width: 100%;
+	max-width: 1170px;
+	display: grid;
+
+	grid-template-columns: column(2)
+	grid-gap: 30px 30px;
+	padding: 45px 40px;
+}
+}
+
+.row-univ_up .left-logo-up{
+	overflow: hidden;
+}
+
+.row-univ_up .left-logo-up img{
+	width: 118px;
+	height: 140px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.row-univ_up .right-text-up .content{
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.row-univ_up .right-text-up  .content h3{
+	font:normal 30px Georgia;
+	line-height: 26px;
+	padding-bottom: 35px;
+}
+
+.row-univ_up .right-text-up  .content p3{
+	font:normal 22px Mada;
+	line-height: 28px;
+	padding-bottom: 35px;
+	color: #454545;
+}
+
+.row-univ_up .right-text-up  .content a{
+	color: ghostwhite;
+	background-color: #07464C;
+	border-radius: 50px;
+	font-size: 27px;
+	padding: 0 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	line-height: 60px;
+	cursor: pointer;
+	text-decoration: none;
+	font: normal 20px Mada;
+	margin-top: 30px;
+}
+
+.subtitle-ask{
+	padding: 32px;
+	padding-left: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: left;
+	font: normal 25px Mada;
+	color: #646363;
+}
 
 
+.container{
+	background-color: #F3F3F3;
+	width: 95%;
+	min-width: 420px;
+	padding: 35px 50px;
+	transform: translate(-50%, 50%);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
 
 
 
