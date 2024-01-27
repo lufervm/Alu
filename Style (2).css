@@ -482,10 +482,11 @@ h5{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	align-content: center;
 	margin-top: 50px;
 	margin-bottom: 50px;
-	padding-left: 334px;
-	padding-right: 334px;
+	padding-left: 80px;
+	padding-right: 80px;
 }
 
 .rss a{

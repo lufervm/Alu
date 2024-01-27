@@ -167,14 +167,15 @@
 	align-items: center;
 	justify-content: center;
 	padding-bottom: 7px;
+	font-size: 20;
 }
 
 
-p{
+.text-container p{
 	text-align: center;
-	margin: 16px;
+	margin: 20px;
 
-	font: normal 22px Mada;
+	font: normal 20px Mada;
 }
 
 
@@ -215,13 +216,13 @@ left{
 }
 
 .row-univ_tec .right-text-tec .content h3{
-	font:normal 30px Georgia;
+	font:normal 24px Georgia;
 	line-height: 26px;
 	padding-bottom: 35px;
 }
 
 .row-univ_tec .right-text-tec .content p3{
-	font:normal 22px Mada;
+	font:normal 18px Mada;
 	line-height: 28px;
 	padding-bottom: 35px;
 	color: #454545;
@@ -275,13 +276,13 @@ left{
 }
 
 .row-univ_anahuac .right-text-anahuac .content h3{
-	font:normal 30px Georgia;
+	font:normal 24px Georgia;
 	line-height: 26px;
 	padding-bottom: 35px;
 }
 
 .row-univ_anahuac .right-text-anahuac .content p3{
-	font:normal 22px Mada;
+	font:normal 18px Mada;
 	line-height: 28px;
 	padding-bottom: 35px;
 	color: #454545;
@@ -335,13 +336,13 @@ left{
 }
 
 .row-univ_unam .right-text-unam .content h3{
-	font:normal 30px Georgia;
+	font:normal 24px Georgia;
 	line-height: 26px;
 	padding-bottom: 35px;
 }
 
 .row-univ_unam .right-text-unam .content p3{
-	font:normal 22px Mada;
+	font:normal 18px Mada;
 	line-height: 28px;
 	padding-bottom: 35px;
 	color: #454545;
@@ -395,13 +396,13 @@ left{
 }
 
 .row-univ_itam .right-text-itam .content h3{
-	font:normal 30px Georgia;
+	font:normal 24px Georgia;
 	line-height: 26px;
 	padding-bottom: 35px;
 }
 
 .row-univ_itam .right-text-itam .content p3{
-	font:normal 22px Mada;
+	font:normal 18px Mada;
 	line-height: 28px;
 	padding-bottom: 35px;
 	color: #454545;
@@ -457,13 +458,13 @@ left{
 }
 
 .row-univ_ibero .right-text-ibero .content h3{
-	font:normal 30px Georgia;
+	font:normal 24px Georgia;
 	line-height: 26px;
 	padding-bottom: 35px;
 }
 
 .row-univ_ibero .right-text-ibero .content p3{
-	font:normal 22px Mada;
+	font:normal 18px Mada;
 	line-height: 28px;
 	padding-bottom: 35px;
 	color: #454545;
@@ -517,13 +518,13 @@ left{
 }
 
 .row-univ_lasalle .right-text-lasalle  .content h3{
-	font:normal 30px Georgia;
+	font:normal 24px Georgia;
 	line-height: 26px;
 	padding-bottom: 35px;
 }
 
 .row-univ_lasalle .right-text-lasalle  .content p3{
-	font:normal 22px Mada;
+	font:normal 18px Mada;
 	line-height: 28px;
 	padding-bottom: 35px;
 	color: #454545;
@@ -577,13 +578,13 @@ left{
 }
 
 .row-univ_up .right-text-up  .content h3{
-	font:normal 30px Georgia;
+	font:normal 24px Georgia;
 	line-height: 26px;
 	padding-bottom: 35px;
 }
 
 .row-univ_up .right-text-up  .content p3{
-	font:normal 22px Mada;
+	font:normal 18px Mada;
 	line-height: 28px;
 	padding-bottom: 35px;
 	color: #454545;
@@ -613,19 +614,233 @@ left{
 	justify-content: left;
 	font: normal 25px Mada;
 	color: #646363;
-}
-
-
-.container{
 	background-color: #F3F3F3;
-	width: 95%;
-	min-width: 420px;
-	padding: 35px 50px;
-	transform: translate(-50%, 50%);
-	position: absolute;
-	left: 50%;
-	top: 50%;
 }
+
+/*FORMULARIO*/
+
+
+
+main{
+	max-width: 800px;
+	width: 98%;
+	margin: auto;
+	padding: 40px;
+}
+
+.container-form{
+	background-color: #F3F3F3
+}
+
+.container-form h4{
+	padding: 32px;
+	padding-left: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: left;
+	font: normal 25px Georgia;
+	color: #07464C;
+}
+
+.container-form p4{
+	padding: 32px;
+	padding-left: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: left;
+	font: normal 18px Mada;
+	color: #646363;
+}
+
+.formulario{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+
+.formulario__label{
+	display: block;
+	font-weight: 700;
+	padding: 10px;
+	cursor: pointer;
+	font-family: Mada;
+}
+
+.formulario__grupo-input{
+	position: relative;
+}
+
+.formulario__input{
+	width: 100%;
+	background-color: #F3F3F3;
+	border: 3px solid transparent;
+	border-radius: 3px;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 40px 0 10px;
+	transition: .3s ease all;
+}
+
+.formulario__input:focus{
+	border: 2px solid #07464C;
+	outline: none;
+	box-shadow: 3px 0px 30px rgba(163, 163, 163, 0.4);
+}
+
+.formulario__input-error{
+	font-size: 12px;
+	margin-bottom: 0;
+	display: none;
+}
+
+.formulario__input-error-activo{
+	display: block;
+}
+
+.formulario__validacion-estado{
+	position: absolute;
+	right: 10px;
+	bottom: 15px;
+	z-index: 100;
+	font-size: 16px;
+	opacity: 0;
+}
+
+.formulario__checkbox{
+	margin-right: 10px;
+}
+
+.formulario__grupo-terminos,
+.formulario__mensaje,
+.formulario__grupo-btn-enviar{
+	grid-column:span 2;
+}
+
+
+.formulario__mensaje{
+	height: 45px;
+	line-height: 45px;
+	background-color: #EF4044;
+	padding: 0 15px;
+	border-radius: 3px;
+}
+
+.formulario__mensaje p{
+	margin: 0;
+}
+
+.formulario__grupo-btn-enviar{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.formulario__btn{
+	height: 45px;
+	line-height: 45px;
+	width: 150px;
+	background-color: #07464C;
+	color: ghostwhite;
+	font-weight: bold;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: .1s ease all;
+}
+
+.formulario__btn:hover{
+	box-shadow: 3px 0px 30px rgba(163, 163, 163, 1);
+}
+
+.formulario__mensaje-exito{
+	font-size: 14px;
+	color: #119200;
+	display: none;
+}
+
+
+.formulario__mensaje-exito-activo{
+	display: block;
+}
+
+
+/* ----estilos para validacion--- */
+
+.formulario__grupo-correcto .formulario__validacion-estado{
+	color: #1ed12d;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__label{
+	color: #bb2929;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado{
+	color: #bb2929;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input{
+	border: 2px solid #bb2929;
+}
+
+/* ----formulario mobile--- */
+
+@media screen and (max-width:800px){
+	.formulario{
+		grid-template-columns: 1fr;
+	}
+
+	.formulario__grupo-terminos,
+	.formulario__mensaje,
+	.formulario__grupo-btn-enviar{
+	grid-column:1;
+}
+
+	.formulario__btn{
+		width: 100%;
+	}
+
+}
+
+
+/*REDES SOCIALES*/
+
+.rss{
+	min-widht: 700px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+.rss a{
+	text-decoration: none;
+	font-size: 28px;
+	width: 60px;
+	height:60px;
+	line-height: 60px;
+	text-align: center;
+	background:#9A9A9A;
+	color: ghostwhite;
+	border-radius: 50%;
+	transition: all.4s ease-in-out;
+}
+
+.rss a:hover {
+	transform: scale(1.2);
+}
+
+
+
+
 
 
 
