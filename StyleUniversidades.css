@@ -844,18 +844,9 @@ main{
 
 
 
-/*FOOTER*/
-
-.Footer{
-	width: 100%;
-	background-color: #595959;
-	padding: 80px 0;
-}
-
 .Footer .LogoFooter{
-	width: 125.99px;
-	padding-left: 119px;
-	margin: 20px;
+	width: 54px;
+	margin-bottom: 20px;
 }
 
 .MenuFooter{
@@ -864,51 +855,19 @@ main{
 	flex-direction: column;
 }
 
-.MenuFooter ul li a{
-	font: normal 22px/1.4 Mada;
-	font-size: 22px;
-	text-decoration: none;
-	color: ghostwhite;
-	display: block15px;
-	transition: all .3s ease;
-	marker: none;
-	list-style-type: none;
+@media (max-width: 668px){
 
-
-
-}
-
-.MenuFooter a{
-	display: inline-block;
-	min-height: 60px;
-	width: 40px;
+	.Footer{
+	width: 100%;
 	background-color: #595959;
-	margin: 0 10 px 10px 0;
+	padding: 80px 54px;
 	text-align: left;
-	line-height: 60px;
-	border-radius: 50%;
-	padding-left: 119px;
-}
-
-.MenuFooter ul{
-	list-style-type: none;
-
-}
-
-.MenuFooter a:hover{
-	text-decoration: underline;
-	color: ghostwhite;
-
-}
-
-.Rights{
-	text-align: left;
-	padding-left: 160px;
 	font: normal 18px/1.4 Mada;
 	color: ghostwhite;
-	margin-right: 125px;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-around;
+	flex-direction: column;
 }
-
-
-
-
+}

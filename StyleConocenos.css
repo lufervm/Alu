@@ -156,7 +156,7 @@
 		background-image: url(ImágenesWeb/Desktop/ConócenosTitleImage.png);
 		background-size: cover;
 	}
-	
+
 .text-container{
 	padding: 32px;
 	display: flex;
@@ -189,13 +189,25 @@ p2{
 }
 
 /*TARJETAS COLECCIÓN*/
+.card-product{
+	display: flex;
+	justify-content: center;
+	margin-top: 0px;
+	flex-wrap: wrap;
+	background-color: #F6F6F6;
+	flex-direction: row;
+	overflow: hidden;
+	padding-top: 25px;
+	padding-bottom: 57px;
+}
+
 .title-container{
 	padding: 32px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: left;
-	background-color: F6F6F6;
+	background-color: #F6F6F6;
 }
 
 h1{
@@ -205,28 +217,27 @@ h1{
 	font: normal 38px/1.4 Georgia;
 }
 
-
 .card-container{
 	display: flex;
 	justify-content: center;
-	flex-wrap: wrap;
 	margin-top: 0px;
+	flex-wrap: wrap;
 	background-color: #F6F6F6;
+	flex-direction: row;
 
 }
 
 .card{
-	width: 445px;
+	width: 335px;
 	background-color: #ghostwhite;
-	overflow: hidden;
+
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 	margin: 20px;
 	border-radius: 14px;
 }
 
 .card img{
-	width: 445px;
-	height: 321px;
+	width: 335px;
 }
 
 .card-content{
@@ -235,7 +246,7 @@ h1{
 
 .card-content h3{
 	font-size: 33px;
-	margin-bottom: 5px;
+	margin-bottom: 0px;
 	font: normal 33px/1.4 Georgia;
 }
 
@@ -269,19 +280,28 @@ h1{
 
 
 
-
 /*FOOTER*/
 
 .Footer{
 	width: 100%;
 	background-color: #595959;
-	padding: 80px 0;
+	padding: 80px 54px;
+	text-align: left;
+	font: normal 18px/1.4 Mada;
+	color: ghostwhite;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-around;
+	flex-direction: row;
+
+
+
 }
 
 .Footer .LogoFooter{
-	width: 125.99px;
-	padding-left: 119px;
-	margin: 20px;
+	width: 54px;
+	margin-bottom: 20px;
 }
 
 .MenuFooter{
@@ -290,51 +310,19 @@ h1{
 	flex-direction: column;
 }
 
-.MenuFooter ul li a{
-	font: normal 22px/1.4 Mada;
-	font-size: 22px;
-	text-decoration: none;
-	color: ghostwhite;
-	display: block15px;
-	transition: all .3s ease;
-	marker: none;
-	list-style-type: none;
+@media (max-width: 668px){
 
-
-
-}
-
-.MenuFooter a{
-	display: inline-block;
-	min-height: 60px;
-	width: 40px;
+	.Footer{
+	width: 100%;
 	background-color: #595959;
-	margin: 0 10 px 10px 0;
+	padding: 80px 54px;
 	text-align: left;
-	line-height: 60px;
-	border-radius: 50%;
-	padding-left: 119px;
-}
-
-.MenuFooter ul{
-	list-style-type: none;
-
-}
-
-.MenuFooter a:hover{
-	text-decoration: underline;
-	color: ghostwhite;
-
-}
-
-.Rights{
-	text-align: left;
-	padding-left: 160px;
 	font: normal 18px/1.4 Mada;
 	color: ghostwhite;
-	margin-right: 125px;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-around;
+	flex-direction: column;
 }
-
-
-
-
+}
