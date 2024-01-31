@@ -3,6 +3,8 @@ body {
 	padding: 0;
 	font-family: 'Mada', sans-serif;
 	top: 0;
+	overflow-x: hidden;
+
 }
 
 /*HEADER*/
